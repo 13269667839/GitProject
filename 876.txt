@@ -1,1 +1,2 @@
 A branch for 8.6.7
+git merge is simple and quick.
