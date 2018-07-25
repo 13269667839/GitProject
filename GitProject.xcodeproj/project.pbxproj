@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DC43C622104C58E00BB91B6 /* ZYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC43C612104C58E00BB91B6 /* ZYHomeViewController.m */; };
 		BA9062AC20FEDF5C0090F77D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9062AB20FEDF5C0090F77D /* AppDelegate.m */; };
 		BA9062AF20FEDF5C0090F77D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9062AE20FEDF5C0090F77D /* ViewController.m */; };
 		BA9062B220FEDF5C0090F77D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9062B020FEDF5C0090F77D /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2DC43C602104C58E00BB91B6 /* ZYHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYHomeViewController.h; sourceTree = "<group>"; };
+		2DC43C612104C58E00BB91B6 /* ZYHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYHomeViewController.m; sourceTree = "<group>"; };
 		BA9062A720FEDF5C0090F77D /* GitProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA9062AA20FEDF5C0090F77D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BA9062AB20FEDF5C0090F77D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 				BA9062B520FEDF5E0090F77D /* LaunchScreen.storyboard */,
 				BA9062B820FEDF5E0090F77D /* Info.plist */,
 				BA9062B920FEDF5E0090F77D /* main.m */,
+				2DC43C602104C58E00BB91B6 /* ZYHomeViewController.h */,
+				2DC43C612104C58E00BB91B6 /* ZYHomeViewController.m */,
 			);
 			path = GitProject;
 			sourceTree = "<group>";
@@ -141,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DC43C622104C58E00BB91B6 /* ZYHomeViewController.m in Sources */,
 				BA9062AF20FEDF5C0090F77D /* ViewController.m in Sources */,
 				BA9062BA20FEDF5E0090F77D /* main.m in Sources */,
 				BA9062AC20FEDF5C0090F77D /* AppDelegate.m in Sources */,
