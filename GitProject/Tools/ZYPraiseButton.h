@@ -3,12 +3,17 @@
 //  SouFun
 //
 //  Created by 张毅 on 2018/7/25.
-//  功用 ： 点赞按钮
+//  功用 ： 抖房点赞按钮
+//  尺寸 ： 45 * 45
 
 #import <UIKit/UIKit.h>
 
-extern double const douFangPraiseButton_animateDuration;
-
 @interface ZYPraiseButton : UIButton
+
+@end
+
+@interface UIImage (douFangPraiseButtonColor)
+
++ (UIImage *)imageWithColor:(UIColor *)color;
 
 @end
