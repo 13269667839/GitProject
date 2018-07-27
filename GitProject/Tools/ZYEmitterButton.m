@@ -66,8 +66,8 @@
         emitterCell.scale            = 1;//0.1
         emitterCell.scaleRange       = .5;//0.02
         //粒子在发射点可以发射的角度
-//        emitterCell.emissionLatitude = - M_PI_2 ;
-        emitterCell.emissionLongitude = 5 * M_PI_4;
+//        emitterCell.emissionLatitude = - M_PI_2 ;//z轴 
+        emitterCell.emissionLongitude = 5 * M_PI_4;//xy轴 北方为 3 * M_PI_2
         emitterCell.emissionRange = M_PI_2 * (1.2);
         // 粒子透明度改变范围
         emitterCell.alphaRange       = 0.10;
